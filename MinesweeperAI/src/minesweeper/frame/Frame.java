@@ -27,6 +27,10 @@ import javax.swing.event.ChangeListener;
 import minesweeper.neural.Neural;
 import neurolib.neural.TrainingSet;
 
+/**
+ * @author Fabian
+ */
+
 @SuppressWarnings("serial")
 public class Frame extends JPanel implements ActionListener, ChangeListener {
 
@@ -174,6 +178,7 @@ public class Frame extends JPanel implements ActionListener, ChangeListener {
 
 		if (ai) {
 			new Thread(new Runnable() {
+				@SuppressWarnings("unused")
 				@Override
 				public void run() {
 					int games = 0;

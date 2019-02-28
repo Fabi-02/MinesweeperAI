@@ -7,6 +7,10 @@ import neurolib.neural.Network;
 import neurolib.neural.Train;
 import neurolib.neural.TrainingSet;
 
+/**
+ * @author Fabian
+ */
+
 public class Neural {
 
 	Network network;
